@@ -1,0 +1,23 @@
+{
+    "name": "edr/single-instance-container",
+    "description": "PHP dependency container to return single instances of dependencies, compatible with interop containers",
+    "authors": [
+        {
+            "name": "Andy Cook",
+            "email": "andrewcook1990@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"edr\\SingleInstanceContainer\\": "src",
+			"edr\\SingleInstanceContainerTestCase\\": "tests/cases",
+			"edr\\SingleInstanceContainerTestAsset\\": "tests/assets"
+		}
+	},
+    "require": {
+        "container-interop/container-interop": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
